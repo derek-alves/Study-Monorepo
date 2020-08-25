@@ -1,0 +1,22 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test":"jest"
+  },
+  "workspaces": [
+    "packages/*",
+    "packages/shared/*"
+  ],
+  "author": "derek-alves <derek.alves@fatec.sp.gov.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "@monorepo/eslint-config": "*",
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "^4.0.2"
+  }
+}
